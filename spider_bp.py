@@ -5,6 +5,7 @@ import json
 import time
 import sys
 
+print("Hello World")  #新增一條內容
 
 def get_page(url):
     resp = requests.get(url, headers={
